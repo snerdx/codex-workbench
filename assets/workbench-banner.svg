@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title description">
+  <title id="title">Codex Workbench</title>
+  <desc id="description">An independent Codex plugin. Seven reusable skills, project context, and verification workflows. A modular workbench illustration connects project setup, development, and review.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M 32 0 L 0 0 0 32" fill="none" stroke="#203449" stroke-width="1"/></pattern>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#0b1729"/><stop offset="1" stop-color="#12263a"/></linearGradient>
+  </defs>
+  <rect width="1280" height="360" rx="18" fill="url(#background)"/>
+  <rect x="790" width="490" height="360" fill="url(#grid)" opacity="0.6"/>
+  <rect x="52" y="51" width="5" height="26" rx="2" fill="#5eead4"/>
+  <text x="74" y="70" fill="#91b3c5" font-family="Segoe UI,Arial,sans-serif" font-size="14" letter-spacing="3">INDEPENDENT CODEX PLUGIN</text>
+  <text x="52" y="151" fill="#f4f8fc" font-family="Segoe UI,Arial,sans-serif" font-weight="700" font-size="62" letter-spacing="-2">Codex Workbench</text>
+  <text x="55" y="198" fill="#b9cad8" font-family="Segoe UI,Arial,sans-serif" font-size="23">Reusable skills for deliberate development.</text>
+  <path d="M55 233 H675" stroke="#294257"/>
+  <text x="55" y="270" fill="#72e4d0" font-family="Consolas,monospace" font-size="16">7 SKILLS</text>
+  <text x="192" y="270" fill="#8fa9bd" font-family="Consolas,monospace" font-size="16">PROJECT CONTEXT</text>
+  <text x="411" y="270" fill="#8fa9bd" font-family="Consolas,monospace" font-size="16">VERIFICATION EVIDENCE</text>
+  <text x="55" y="317" fill="#7894aa" font-family="Segoe UI,Arial,sans-serif" font-size="14">Open source / MIT licensed / Built for existing repositories</text>
+  <g fill="none" stroke="#36566b" stroke-width="2">
+    <path d="M843 132 V180 H1040 V229"/><path d="M1040 180 H1176 V132"/>
+    <path d="M807 292 H1218" stroke="#56869b" stroke-width="3"/>
+    <path d="M838 293 V324 M1188 293 V324" stroke="#56869b" stroke-width="5"/>
+  </g>
+  <g font-family="Consolas,monospace" font-size="14">
+    <rect x="785" y="72" width="132" height="74" rx="9" fill="#142c40" stroke="#5aaea9"/>
+    <text x="806" y="101" fill="#64dfcc">01 / SETUP</text><text x="806" y="126" fill="#c3d8e6">project-init</text>
+    <rect x="956" y="219" width="166" height="64" rx="9" fill="#183746" stroke="#6de2ce"/>
+    <text x="977" y="244" fill="#64dfcc">02 / DEVELOP</text><text x="977" y="267" fill="#d3e7ee">implement-change</text>
+    <rect x="1108" y="72" width="132" height="74" rx="9" fill="#142c40" stroke="#5aaea9"/>
+    <text x="1129" y="101" fill="#64dfcc">03 / REVIEW</text><text x="1129" y="126" fill="#c3d8e6">review-change</text>
+  </g>
+  <circle cx="1040" cy="180" r="5" fill="#67dec9"/>
+</svg>

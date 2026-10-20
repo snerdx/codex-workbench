@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="502" viewBox="0 0 1280 502" role="img" aria-labelledby="title desc">
+<title id="title">Recorded installer preview, installation, and setup check</title>
+<desc id="desc">Actual output captured from a disposable empty project. Preview writes nothing, installation adds the toolkit, and the readiness helper reports unfinished project configuration. File lists are abbreviated. No application tests or live Codex session are represented.</desc>
+<rect width="1280" height="502" rx="14" fill="#0b1729"/>
+<path d="M0 57 H1280" stroke="#294257"/>
+<circle cx="31" cy="29" r="5" fill="#607c93"/><circle cx="50" cy="29" r="5" fill="#607c93"/><circle cx="69" cy="29" r="5" fill="#6de2ce"/>
+<text x="95" y="34" fill="#8fa9bd" font-family="Segoe UI,Arial,sans-serif" font-size="14">CAPTURED CLI OUTPUT / DISPOSABLE PROJECT / FILE LISTS ABBREVIATED</text>
+<g font-family="Consolas,Menlo,monospace" font-size="16"><text x="32" y="99" fill="#6de2ce">$ node scripts/install.mjs --target ./example-project --dry-run</text>
+<text x="32" y="126" fill="#bdcddd">CREATE .agents/skills/kit-project-init/SKILL.md</text>
+<text x="32" y="153" fill="#839db2">[39 more file operations omitted from this view]</text>
+<text x="32" y="180" fill="#bdcddd">Preview only; no files written.</text>
+<text x="32" y="207" fill="#bdcddd"></text>
+<text x="32" y="234" fill="#6de2ce">$ node scripts/install.mjs --target ./example-project</text>
+<text x="32" y="261" fill="#bdcddd">Installed codex-workbench 0.2.0. Open Codex in the target and run $kit-project-init.</text>
+<text x="32" y="288" fill="#bdcddd"></text>
+<text x="32" y="315" fill="#6de2ce">$ node .agents/skills/kit-project-init/scripts/doctor.mjs --target .</text>
+<text x="32" y="342" fill="#d9be85">ACTION: Complete project facts in PROJECT.md; use explicit not-applicable values where appropriate.</text>
+<text x="32" y="369" fill="#d9be85">ACTION: Register at least one applicable verification check.</text>
+<text x="32" y="396" fill="#d9be85">ACTION: Record administrator/developer confirmation of actual permission and release controls.</text>
+<text x="32" y="423" fill="#d9be85">ACTION: Confirm skills and project instructions load in the actual Codex session.</text>
+<text x="32" y="450" fill="#bdcddd">Setup incomplete. No application checks were executed.</text></g></svg>
